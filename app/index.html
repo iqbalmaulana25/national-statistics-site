@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NusaStat — National Statistics Explorer</title>
+<meta name="description" content="Explore Indonesia's national statistics: population, economy, labour, prices and regions, with sourced figures and charts.">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true">◈</span>
+      <span class="brand-name">NusaStat</span>
+      <span class="brand-sub">National Statistics Explorer</span>
+    </a>
+    <nav class="mainnav" aria-label="Main navigation">
+      <a href="#/" data-nav="home">Dashboard</a>
+      <a href="#/population" data-nav="population">Population</a>
+      <a href="#/economy" data-nav="economy">Economy</a>
+      <a href="#/labour" data-nav="labour">Labour</a>
+      <a href="#/prices" data-nav="prices">Prices</a>
+      <a href="#/regions" data-nav="regions">Regions</a>
+      <a href="#/about" data-nav="about">Sources</a>
+    </nav>
+  </div>
+</header>
+<main id="app" class="wrap" tabindex="-1"></main>
+<footer class="footer">
+  <div class="wrap">
+    <p><strong>NusaStat</strong> is an independent statistics explorer. Figures are drawn from official
+    publications (BPS — Statistics Indonesia, Bank Indonesia, World Bank) and are labelled with
+    source and year on every page. This site works fully offline; no data leaves your browser.</p>
+    <p class="foot-links"><a href="#/about">Sources &amp; methods</a> · <a href="#/regions">All 38 provinces</a> · Data year: 2024 unless stated</p>
+  </div>
+</footer>
+</body>
+</html>
